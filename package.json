@@ -1,0 +1,28 @@
+{
+  "name": "arcanapass",
+  "version": "1.0.0",
+  "description": "Stateless password generator - CLI and Web versions",
+  "main": "cli.js",
+  "bin": {
+    "arcanapass": "./cli.js"
+  },
+  "scripts": {
+    "start": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "cli": "node cli.js",
+    "install:frontend": "cd frontend && npm install"
+  },
+  "keywords": [
+    "password",
+    "generator",
+    "stateless",
+    "deterministic",
+    "cli",
+    "security"
+  ],
+  "author": "ansi-d",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
