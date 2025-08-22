@@ -1,4 +1,4 @@
-# ArcanaPass CLI
+# 👾 ArcanaPass CLI
 
 A command-line interface for the [ArcanaPass](https://github.com/ANSI-D/ArcanaPass) stateless password generator, written in Node.js. Generate secure, deterministic passwords without storing anything locally.
 
