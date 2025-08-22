@@ -1,10 +1,14 @@
 {
   "name": "arcanapass",
   "version": "1.0.0",
-  "description": "Stateless password generator - CLI and Web versions",
+  "description": "A stateless password generator CLI tool - generates secure, deterministic passwords without storing anything locally",
   "main": "cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANSI-D/ArcanaPass-CLI.git"
+  },
   "bin": {
-    "arcanapass": "./cli.js"
+    "arcanapass": "cli.js"
   },
   "scripts": {
     "start": "cd frontend && npm start",

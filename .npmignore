@@ -1,0 +1,22 @@
+# Development files
+.git/
+.gitignore
+.vscode/
+*.log
+node_modules/
+
+# Documentation (keep README.md)
+docs/
+
+# Test files
+test/
+tests/
+*.test.js
+
+# Build artifacts
+dist/
+build/
+
+# OS generated files
+.DS_Store
+Thumbs.db

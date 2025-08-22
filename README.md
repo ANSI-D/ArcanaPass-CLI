@@ -17,9 +17,18 @@ A command-line interface for the [ArcanaPass](https://github.com/ANSI-D/ArcanaPa
 npm install -g arcanapass
 ```
 
-### Local Usage
+### Local Installation
 ```bash
-git clone <repository-url>
+# Install locally in a project
+npm install arcanapass
+
+# Then run with npx
+npx arcanapass
+```
+
+### Development Setup
+```bash
+git clone https://github.com/ANSI-D/ArcanaPass-CLI.git
 cd ArcanaPass-CLI
 npm install
 node cli.js
